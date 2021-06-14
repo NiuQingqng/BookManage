@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+table{
+    margin: auto;
+}
+.html_main{
+    width: 1080px;
+    margin: auto;
+}
+.html_main td{
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+}
+.html_main table{
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+.content{
+    height: 700px;
+    text-align: center;
+}
+
+/*主页内容css*/
+    /*主页图片css*/
+#index_table1 td{
+    border: 0px solid white;
+    width: auto;
+}
+#index_table2 td{
+    border: 0px solid white;
+    width: auto;
+}
+#index_img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#index_img img{
+    border-radius: 5px;
+}
+    /*主页新闻和公告css*/
+#neirong{
+    height: 240px;
+}
+#neirong a{
+    text-decoration: none;
+    color: black;
+}
+#neirong a:hover{
+    color: deeppink;
+}
+#notice{
+    display: inline-block;
+    border:1px solid #000;
+    border-radius: 5px;
+    float: left;
+}
+#notice_con{
+    margin: 10px 20px;
+}
+#news{
+    display: inline-block;
+    border:1px solid #000;
+    border-radius: 5px;
+    float: right;
+}
+#news_con{
+    margin: 10px 20px;
+}
+    /*主页底部css*/
+#befor_footer{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+#befor_footer a{
+    margin: 0 20px;
+}
+
+/*其他页面*/
+#em{
+    height: 100px;
+}
+.login_tittle{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.my_login{
+    background-color: #00000090;
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    padding-top: 100px;
+    margin: auto;
+}
